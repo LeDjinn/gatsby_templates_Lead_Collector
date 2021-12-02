@@ -1,0 +1,61 @@
+{
+  "name": "otos-lab",
+  "private": true,
+  "description": "Développeur d'applications web et mobile",
+  "version": "0.1.0",
+  "author": "Nizar M'rad <nizar.mrad.pro@gmail.com>",
+  "dependencies": {
+    "@headlessui/react": "^1.4.1",
+    "@heroicons/react": "^1.0.4",
+    "@tailwindcss/line-clamp": "^0.2.2",
+    "emailjs-com": "^3.2.0",
+    "framer-motion": "^5.0.0",
+    "gatsby": "^3.12.1",
+    "gatsby-cli": "^4.0.0",
+    "gatsby-plugin-gatsby-cloud": "^2.11.0",
+    "gatsby-plugin-gdpr-cookies": "^2.0.6",
+    "gatsby-plugin-image": "^1.14.2",
+    "gatsby-plugin-manifest": "^3.12.0",
+    "gatsby-plugin-offline": "^4.14.0",
+    "gatsby-plugin-purgecss": "^6.0.2",
+    "gatsby-plugin-react-helmet": "^4.12.0",
+    "gatsby-plugin-robots-txt": "^1.6.10",
+    "gatsby-plugin-sharp": "^3.14.3",
+    "gatsby-plugin-sitemap": "^4.10.0",
+    "gatsby-source-filesystem": "^3.12.0",
+    "gatsby-transformer-sharp": "^3.12.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^7.14.2",
+    "use-in-view": "^1.0.15"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.3",
+    "gatsby-plugin-postcss": "^4.12.0",
+    "postcss": "^8.3.6",
+    "prettier": "2.3.2",
+    "tailwindcss": "^2.2.7"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
